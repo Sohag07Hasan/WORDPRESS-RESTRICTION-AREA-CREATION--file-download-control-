@@ -1,0 +1,12 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpresslatest/
+RewriteRule ^index\.php$ - [L]
+
+
+RewriteRule . /wordpresslatest/index.php [L]
+</IfModule>
+
+# END WordPress
